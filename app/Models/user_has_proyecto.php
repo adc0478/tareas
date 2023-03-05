@@ -18,4 +18,12 @@ class user_has_proyecto extends Model
         }
         return 'NOK';
     }
+    public function obtener_id_tipo_usuario ($proyecto_id,$usuario_id){
+       $dato = user_has_proyecto::where('proyecto_id',$proyecto_id)
+               -> where('user_id',$usuario_id)->get();
+        if (isset($dato[0]->tipo_id)){
+            return $dato[0]->tipo_id;
+        }
+        return 0;
+    }
 }

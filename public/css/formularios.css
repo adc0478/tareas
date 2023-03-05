@@ -1,3 +1,47 @@
+.tabla {
+    width:30%;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding: 1%;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,.3);
+}
+.tabla .tr_list:hover{
+  background-color: aliceblue;
+  border-radius: 1%;
+}
+.informe_accion{
+    background-color: rgba(162,221,162,1);
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: -10%;
+    height: 40px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    justify-items: center;
+    align-items: center;
+    animation-name: mover_accion;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes mover_accion{
+    to{
+        transform: translateY(200%);
+    }
+}
+.btn_list{
+    background-color: white;
+    border: .5px solid black;
+    border-radius: 10%;
+}
+.btn_list:hover{
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,.3);
+    cursor:pointer;
+}
+
 .text{
     width: 95%;
     height: 40px;
@@ -78,5 +122,8 @@
 @media screen and (max-width: 768px){
     .contenido_form{
         width:95%;
+    }
+    .tabla{
+        width: 95%;
     }
 }
