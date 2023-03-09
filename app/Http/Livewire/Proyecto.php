@@ -42,6 +42,7 @@ class Proyecto extends Component
     public function editar($proyecto_id,$detalle){
         $this->detalle = $detalle;
         $this->id_proyecto = $proyecto_id;
+        $this->emit('gestion_usuario',['proyecto_id'=>$proyecto_id]);
     }
     public function eliminar ($proyecto_id, $detalle){
         $obj = new proyectos();

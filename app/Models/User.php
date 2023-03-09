@@ -50,4 +50,7 @@ class User extends Authenticatable
         $dato = User::where('email',$condicion,$email)->get();
         return $dato;
     }
+    static function listar_todosLos_usuarios(){
+        return User::all();
+    }
 }
