@@ -26,4 +26,20 @@ class user_has_proyecto extends Model
         }
         return 0;
     }
+    static function obtener_todos_los_usuarios_proyecto($id_p){
+        if ($id_p == "") {
+            return [];
+        }
+        $datos = user_has_proyecto::select (
+                    'user_has_proyectos.id as id',
+                    'tipos_deUsuario.tipo as tipo',
+                    'users.email as email',
+                    'users.id as idU'
+                )
+                ->where('proyecto_id',$id_p)
+                ->join('users','users.id',"=","user_has_proyectos.user_id")
+                ->join('tipos_deUsuario','tipos_deUsuario.id','=','user_has_proyectos.tipo_id')
+                ->join('proyectos','proyectos.id',"=",'user_has_proyectos.proyecto_id')->get();
+         return $datos;
+    }
 }

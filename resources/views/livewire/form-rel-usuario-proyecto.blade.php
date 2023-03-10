@@ -7,13 +7,13 @@
               <th>Mail</th>
               <th></th>
           </tr>
-          <tr>
-                @foreach($lista_usuario as $user)
+          @foreach($lista_usuario as $user)
+              <tr>
                   <td>{{$user->id}}</td>
                   <td>{{$user->email}}</td>
                   <td> <button class="btn_list" wire:click="ingresar_usuario('{{$user->id}}')">-></button> </td>
-                @endforeach
-          </tr>
+              </tr>
+          @endforeach
        </table>
 
        <!--Lista usuarios ya ingresados al proyecto -->
@@ -30,7 +30,7 @@
                     <td> <button class="btn_list" wire:click="quitar_usuario('{{$activo->id}}')"><-</button> </td>
                     <td>{{$activo->id}}</td>
                     <td>{{$activo->idU}}</td>
-                    <td>{{$activo->Mail}}</td>
+                    <td>{{$activo->email}}</td>
                     <td>{{$activo->tipo}}</td>
                 </tr>
 
