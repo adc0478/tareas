@@ -63,6 +63,7 @@ class Proyecto extends Component
                  $this->salida  = "Se agrego el proyecto " . $this->detalle;
                 //limpiar formulario
                 $this->limpiar_form_proyecto();
+               $this->emit('gestion_usuario',['proyecto_id'=>'']);
                 return;
             }
         }

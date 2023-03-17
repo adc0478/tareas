@@ -1,5 +1,11 @@
-<div>
+<div class="menu_izq">
+    <link rel="stylesheet" href="css/menu_left.css" type="text/css" media="screen" title="no title" charset="utf-8">
     <div class="contenido">
+       @if ($info !="")
+        <div class="mje_alerta">
+           <span>{{$info}}</span>
+        </div>
+       @endif
        <!--Lista usuarios del sistema -->
        <table class="tabla">
           <tr>

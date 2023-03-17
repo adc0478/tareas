@@ -1,0 +1,21 @@
+.menu_izq{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 50vw;
+    height: 100vh;
+    background-color: yellow;
+    transform: translateX(-50vw);
+}
+.menu_izq .contenido{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+@media screen and (max-width: 768px){
+    .menu_izq{
+        width: 100vw;
+        transform: translateX(-100vw);
+    }
+}
