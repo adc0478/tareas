@@ -1,4 +1,4 @@
-.menu_izq{
+.lista_tarea{
     position: absolute;
     top: 0;
     left:0;
@@ -10,7 +10,7 @@
     overflow-x: auto;
     z-index: 1;
 }
-.menu_left .contenido{
+.lista_tarea .contenido{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -23,30 +23,30 @@
     width: 30px;
     cursor: pointer;
 }
-.btn_ver{
+.btn_ver_tareas{
     position: absolute;
-    top: 50%;
+    top:45%;
     left: 0px;
     height: 30px;
     width: 30px;
-    cursor:pointer;
+    cursor: pointer;
 }
-.menu_izq .contenido{
+.lista_tarea .contenido{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
 
 }
-.menu_izq_ver{
+.lista_tarea_ver{
     transform: translateX(0vw);
 }
 
 @media screen and (max-width: 768px){
-    .menu_izq{
+    .lista_tarea{
         width: 100vw;
         transform: translateX(-100vw);
     }
-    .menu_izq_ver{
+    .lista_tarea_ver{
       transform: translateX(0vw);
     }
 }

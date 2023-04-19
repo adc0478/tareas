@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Livewire;
-
+use Exception;
 use App\Models\User;
 use App\Models\user_has_proyecto;
 use Livewire\Component;
@@ -30,7 +30,12 @@ class FormRelUsuarioProyecto extends Component
 
     }
     public function quitar_usuario($id){
-
+        try {
+            user_has_proyecto::quitar_relacion_usuario_proyecto_tipoU($id);
+            $this->emit('mensaje_emitido','Usuario desvinculado');
+        } catch (Exception $e) {
+            $this->emit('mensaje_error',['mensaje'=>'No fue posible eliminar el usuario, ya que tiene asignada una tarea','error'=>'']);
+        }
     }
 
     public function render()

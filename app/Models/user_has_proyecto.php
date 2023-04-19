@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Exception;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -31,12 +32,16 @@ class user_has_proyecto extends Model
             if ($respuesta != 0) {
                 $id_tipoU = $respuesta;
             }
-            $salida = user_has_proyecto::UpdateOrCreate(['user_id' => $id_u,'proyecto_id' => $id_proye],['tipo_id' => $id_tipoU]);
+                $salida = user_has_proyecto::UpdateOrCreate(['user_id' => $id_u,'proyecto_id' => $id_proye],['tipo_id' => $id_tipoU]);
             if (!empty($salida)){
                 return 'OK';
             };
         }
         return 'NOK';
+    }
+    static function quitar_relacion_usuario_proyecto_tipoU($id){
+       $bd = new user_has_proyecto();
+       $salida = $bd->where('id',$id)->where('tipo_id','<>',1)->delete();
     }
     static function obtener_todos_los_usuarios_proyecto($id_p){
         if ($id_p == "") {

@@ -1,0 +1,41 @@
+.informe_accion{
+    background-color: rgba(162,221,162,1);
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: -10%;
+    height: 40px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    justify-items: center;
+    align-items: center;
+    animation-name: mover_accion;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    z-index: 2;
+}
+.informe_error{
+    background-color:#e53935;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: -10%;
+    height: 40px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    justify-items: center;
+    align-items: center;
+    animation-name: mover_accion;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    z-index: 2;
+}
+
+
+@keyframes mover_accion{
+    to{
+        transform: translateY(200%);
+    }
+}

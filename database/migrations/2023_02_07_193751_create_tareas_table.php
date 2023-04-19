@@ -17,8 +17,6 @@ return new class extends Migration
             $table->id();
                 $table->string('descripcion');
                 $table->double('tiempo_proyectado');
-                $table->date('tiempo_inicio');
-                $table->date('tiempo_final');
                 $table->unsignedBigInteger('proyecto_id');
                 $table->foreign('proyecto_id')
                 ->references('id')

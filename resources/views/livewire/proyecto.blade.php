@@ -5,6 +5,7 @@
             <span>Proyecto ID: {{$id_proyecto}}</span>
             <input type="text" wire:model="detalle" class="text" placeholder="Indique nombre proyecto" value="" name="detalle" id=""/>
             <button class="btn" wire:click="registrar_proyecto">Ingresar</button>
+            <button class="btn" wire:click="limpiar_form_proyecto()">Cancelar</button>
         <div class="mje_error">
             @error('detalle')
                 <span>{{$message}}</span>
@@ -36,11 +37,10 @@
         @endforeach
     </table>
 </div>
-@if ($salida_accion != "")
-    <div class="informe_accion">
-        <span>{{$salida_accion}}</span>
-        <button class="btn_list" wire:click="quitar_salida_accion">X</button>
-    </div>
+
+@if ($id_proyecto != "")
+    <img onclick="ver_right()" src="img/list.png" alt="" class="btn_ver_tareas">
+    <img onclick="ver_left()" src="img/user.png" alt="" class="btn_ver">
 @endif
 <!-- Modal carga usuario -->
 </div>

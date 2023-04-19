@@ -1,0 +1,320 @@
+
+
+NVIM v0.9.0-dev-949+g1d6bb0892
+Build type: RelWithDebInfo
+LuaJIT 2.1.0-beta3
+Compilation: /usr/bin/cc -Wall -Wextra -pedantic -Wno-unused-parameter -Wstrict-prototypes -std=gnu99 -Wshadow -Wconversion -Wdouble-promotion -Wmissing-noreturn -Wmissing-format-attribute -Wmissing-prototypes -Wimplicit-fallthrough -Wvla -fno-common -fdiagnostics-color=auto -fstack-protector-strong -DNVIM_MSGPACK_HAS_FLOAT32 -DNVIM_TS_HAS_SET_MATCH_LIMIT -DNVIM_TS_HAS_SET_ALLOCATOR -DINCLUDE_GENERATED_DECLARATIONS -D_GNU_SOURCE -DMIN_LOG_LEVEL=3 -DNVIM_UNIBI_HAS_VAR_FROM -I/home/ariel/Descargas/neovim/.deps/usr/include/luajit-2.1 -I/usr/include -I/home/ariel/Descargas/neovim/.deps/usr/include -I/home/ariel/Descargas/neovim/.deps/usr/include -I/home/ariel/Descargas/neovim/.deps/usr/include -I/home/ariel/Descargas/neovim/.deps/usr/include -I/home/ariel/Descargas/neovim/build/src/nvim/auto -I/home/ariel/Descargas/neovim/build/include -I/home/ariel/Descargas/neovim/build/cmake.config -I/home/ariel/Descargas/neovim/src -I/home/ariel/Descargas/neovim/.deps/usr/include -I/home/ariel/Descargas/neovim/.deps/usr/include -I/home/ariel/Descargas/neovim/.deps/usr/include
+Compilado por ariel@ariel-phn14c
+
+Features: +acl +tui
+See ":help feature-compile"
+
+     archivo "vimrc" del sistema: "$VIM/sysinit.vim"
+            predefinido para $VIM: "/usr/local/share/nvim"
+
+Run :checkhealth for more info1969-12-31 21:06:50.901007: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:06:50.901870: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:06:50.902340: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:06:50.903318: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:06:50.903547: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:06:50.904432: AutoUpdate finished successfully
+1969-12-31 21:06:53.633336: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:06:53.633896: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:06:53.634169: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:06:53.634951: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:06:53.635631: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:06:53.636597: AutoUpdate finished successfully
+1969-12-31 21:06:54.073544: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:06:54.074091: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:06:54.074369: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:06:54.075157: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:06:54.075827: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:06:54.076640: AutoUpdate finished successfully
+1969-12-31 21:06:54.663265: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:06:54.664139: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:06:54.664613: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:06:54.665958: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:06:54.666663: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:06:54.669121: AutoUpdate finished successfully
+1969-12-31 21:07:07.602542: ToggleWindow called
+1969-12-31 21:07:07.603234: OpenWindow called with flags: ''
+1969-12-31 21:07:07.668856: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:07.669099: Still opening window, stopping processing
+1969-12-31 21:07:07.672353: InitWindow called with autoclose: 0
+1969-12-31 21:07:07.692059: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:07.692397: In Tagbar window, stopping processing
+1969-12-31 21:07:07.697038: InitWindow finished
+1969-12-31 21:07:07.697321: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:07.697655: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:07:07.697850: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:07.698422: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:07.698807: RenderContent called
+1969-12-31 21:07:07.699288: Redisplaying file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:07.700187: PrintKinds called
+1969-12-31 21:07:07.700491: Printing kind: n, number of (top-level) tags: 1
+1969-12-31 21:07:07.717424: Printing kind: a, number of (top-level) tags: 0
+1969-12-31 21:07:07.717659: Printing kind: d, number of (top-level) tags: 0
+1969-12-31 21:07:07.717843: Printing kind: i, number of (top-level) tags: 0
+1969-12-31 21:07:07.718038: Printing kind: t, number of (top-level) tags: 0
+1969-12-31 21:07:07.718278: Printing kind: c, number of (top-level) tags: 0
+1969-12-31 21:07:07.718463: Printing kind: v, number of (top-level) tags: 0
+1969-12-31 21:07:07.718673: Printing kind: f, number of (top-level) tags: 0
+1969-12-31 21:07:07.718870: Printing kind: ?, number of (top-level) tags: 0
+1969-12-31 21:07:07.720485: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:07.721705: Highlight pattern: '/^\%27l\s*[▾▸ ][-+# ]\?\zs\Vlistar_proyectos\m\ze/'
+1969-12-31 21:07:07.749312: AutoUpdate finished successfully
+1969-12-31 21:07:07.750538: RenderContent called
+1969-12-31 21:07:07.750846: Redisplaying file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:07.751318: PrintKinds called
+1969-12-31 21:07:07.751483: Printing kind: n, number of (top-level) tags: 1
+1969-12-31 21:07:07.762134: Printing kind: a, number of (top-level) tags: 0
+1969-12-31 21:07:07.762400: Printing kind: d, number of (top-level) tags: 0
+1969-12-31 21:07:07.762609: Printing kind: i, number of (top-level) tags: 0
+1969-12-31 21:07:07.762814: Printing kind: t, number of (top-level) tags: 0
+1969-12-31 21:07:07.763062: Printing kind: c, number of (top-level) tags: 0
+1969-12-31 21:07:07.763266: Printing kind: v, number of (top-level) tags: 0
+1969-12-31 21:07:07.763468: Printing kind: f, number of (top-level) tags: 0
+1969-12-31 21:07:07.763668: Printing kind: ?, number of (top-level) tags: 0
+1969-12-31 21:07:07.784580: Highlight pattern: '/^\%28l\s*[▾▸ ][-+# ]\?\zs\Vregistrar_proyecto\m\ze/'
+1969-12-31 21:07:07.828115: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:07.828357: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:07:07.828468: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:07.828787: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:07.829082: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:07.830129: goto_win(): wincmd p, 1
+1969-12-31 21:07:07.830354: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:07.830696: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:07.830852: goto_win(): 1wincmd w, 1
+1969-12-31 21:07:07.830983: AutoUpdate finished successfully
+1969-12-31 21:07:07.831811: OpenWindow finished
+1969-12-31 21:07:07.831944: ToggleWindow finished
+1969-12-31 21:07:08.164452: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:08.164688: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:07:08.164795: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:08.165102: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:08.165379: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:08.166372: goto_win(): wincmd p, 1
+1969-12-31 21:07:08.166558: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:08.166907: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:08.167064: goto_win(): 1wincmd w, 1
+1969-12-31 21:07:08.167192: AutoUpdate finished successfully
+1969-12-31 21:07:09.901715: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:09.902290: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:07:09.902567: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:09.903209: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:09.903618: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:09.904508: goto_win(): wincmd p, 1
+1969-12-31 21:07:09.904695: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:09.905030: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:09.905187: goto_win(): 1wincmd w, 1
+1969-12-31 21:07:09.905317: AutoUpdate finished successfully
+1969-12-31 21:07:12.640927: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:12.641399: In Tagbar window, stopping processing
+                                     1969-12-31 21:07:12.972669: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:12.973030: In Tagbar window, stopping processing
+                                                  1969-12-31 21:07:14.194650: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:14.195437: In Tagbar window, stopping processing
+                                              1969-12-31 21:07:14.773739: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:14.774395: In Tagbar window, stopping processing
+                                              1969-12-31 21:07:15.636608: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:15.637378: In Tagbar window, stopping processing
+                             1969-12-31 21:07:17.053826: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:17.054595: In Tagbar window, stopping processing
+             1969-12-31 21:07:18.138120: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:18.138905: In Tagbar window, stopping processing
+                                1969-12-31 21:07:19.756599: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:19.757570: In Tagbar window, stopping processing
+                1969-12-31 21:07:26.244577: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:26.245538: In Tagbar window, stopping processing
+                             1969-12-31 21:07:35.040671: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:35.041456: In Tagbar window, stopping processing
+1969-12-31 21:07:36.284530: goto_win(): 1wincmd w, 1
+1969-12-31 21:07:36.285338: goto_win(): 2wincmd w, 0
+1969-12-31 21:07:36.291914: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:36.292224: In Tagbar window, stopping processing
+1969-12-31 21:07:36.293193: goto_win(): wincmd p, 0
+1969-12-31 21:07:36.300842: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:36.301119: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:07:36.301245: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:36.301564: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:36.301859: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:36.302777: goto_win(): wincmd p, 1
+1969-12-31 21:07:36.303232: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:36.304131: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:36.304547: goto_win(): 1wincmd w, 1
+1969-12-31 21:07:36.304891: AutoUpdate finished successfully
+1969-12-31 21:07:36.306822: Jumping to line 20
+1969-12-31 21:07:36.306957: Searching for pattern "\V\^\C    public $lista_proyectos = [];\$"
+1969-12-31 21:07:36.307712: goto_win(): wincmd p, 1
+1969-12-31 21:07:36.307912: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:36.308282: Highlight pattern: '/^\%17l\s*[▾▸ ][-+# ]\?\zs\Vlista_proyectos\m\ze/'
+1969-12-31 21:07:36.308463: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:36.308622: goto_win(): 1wincmd w, 0
+1969-12-31 21:07:36.315620: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:36.315899: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:07:36.316020: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:36.316390: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:36.316691: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:36.317186: goto_win(): wincmd p, 1
+1969-12-31 21:07:36.317417: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:36.317752: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:36.317909: goto_win(): 1wincmd w, 1
+1969-12-31 21:07:36.318039: AutoUpdate finished successfully
+1969-12-31 21:07:36.652777: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:36.653255: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:07:36.653387: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:36.653742: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:36.654108: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:36.654655: goto_win(): wincmd p, 1
+1969-12-31 21:07:36.654865: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:36.655254: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:36.655437: goto_win(): 1wincmd w, 1
+1969-12-31 21:07:36.655587: AutoUpdate finished successfully
+1969-12-31 21:07:40.331287: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:40.331854: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:07:40.332129: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:40.333006: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:40.333441: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:40.334617: goto_win(): wincmd p, 1
+1969-12-31 21:07:40.335088: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:40.336012: Highlight pattern: '/^\%18l\s*[▾▸ ][-+# ]\?\zs\Vregla_proyecto\m\ze/'
+1969-12-31 21:07:40.336518: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:40.336931: goto_win(): 1wincmd w, 1
+1969-12-31 21:07:40.387157: goto_win(): wincmd p, 1
+1969-12-31 21:07:40.387583: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:40.388304: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:40.388636: goto_win(): 1wincmd w, 1
+1969-12-31 21:07:40.388904: AutoUpdate finished successfully
+1969-12-31 21:07:41.272746: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:41.273358: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:07:41.273632: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:41.274421: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:41.275285: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:41.276516: goto_win(): wincmd p, 1
+1969-12-31 21:07:41.276984: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:41.277887: Highlight pattern: '/^\%20l\s*[▾▸ ][-+# ]\?\zs\Vsalida_accion\m\ze/'
+1969-12-31 21:07:41.278344: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:41.278748: goto_win(): 1wincmd w, 1
+1969-12-31 21:07:41.329319: goto_win(): wincmd p, 1
+1969-12-31 21:07:41.329780: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:41.330440: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:41.330748: goto_win(): 1wincmd w, 1
+1969-12-31 21:07:41.330992: AutoUpdate finished successfully
+1969-12-31 21:07:42.763331: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:42.763942: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:07:42.764217: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:42.765087: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:42.765928: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:42.766739: goto_win(): wincmd p, 1
+1969-12-31 21:07:42.766924: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:42.767285: Highlight pattern: '/^\%26l\s*[▾▸ ][-+# ]\?\zs\Vlimpiar_form_proyecto\m\ze/'
+1969-12-31 21:07:42.767471: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:42.767658: goto_win(): 1wincmd w, 1
+1969-12-31 21:07:42.791284: goto_win(): wincmd p, 1
+1969-12-31 21:07:42.791509: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:42.791853: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:42.792012: goto_win(): 1wincmd w, 1
+1969-12-31 21:07:42.792141: AutoUpdate finished successfully
+1969-12-31 21:07:43.462813: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:43.463447: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:07:43.463722: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:43.464590: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:43.465418: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:43.466963: goto_win(): wincmd p, 1
+1969-12-31 21:07:43.467151: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:43.467489: Highlight pattern: '/^\%13l\s*[▾▸ ][-+# ]\?\zs\VProyecto\m\ze/'
+1969-12-31 21:07:43.467665: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:43.467822: goto_win(): 1wincmd w, 1
+1969-12-31 21:07:43.487316: goto_win(): wincmd p, 1
+1969-12-31 21:07:43.487531: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:43.487879: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:43.488039: goto_win(): 1wincmd w, 1
+1969-12-31 21:07:43.488167: AutoUpdate finished successfully
+1969-12-31 21:07:44.856555: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:44.857101: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:07:44.857377: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:44.858234: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:44.859064: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:07:44.860404: goto_win(): wincmd p, 1
+1969-12-31 21:07:44.860877: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:44.861792: Highlight pattern: '/^\%26l\s*[▾▸ ][-+# ]\?\zs\Vlimpiar_form_proyecto\m\ze/'
+1969-12-31 21:07:44.862259: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:44.862670: goto_win(): 1wincmd w, 1
+1969-12-31 21:07:44.886300: goto_win(): wincmd p, 1
+1969-12-31 21:07:44.886510: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:44.886923: goto_win(): 2wincmd w, 1
+1969-12-31 21:07:44.887085: goto_win(): 1wincmd w, 1
+1969-12-31 21:07:44.887214: AutoUpdate finished successfully
+1969-12-31 21:07:52.156650: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:52.157154: In Tagbar window, stopping processing
+                                        1969-12-31 21:07:52.487062: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:52.487858: In Tagbar window, stopping processing
+                                              1969-12-31 21:07:53.670517: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:53.671305: In Tagbar window, stopping processing
+                                                                         1969-12-31 21:07:54.128950: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:54.129825: In Tagbar window, stopping processing
+1969-12-31 21:07:54.618242: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:54.619273: In Tagbar window, stopping processing
+                                                                         1969-12-31 21:07:56.241039: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:56.241838: In Tagbar window, stopping processing
+                                     1969-12-31 21:07:57.569819: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:07:57.570729: In Tagbar window, stopping processing
+1969-12-31 21:08:00.539537: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:08:00.540176: In Tagbar window, stopping processing
+             1969-12-31 21:08:02.309121: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:08:02.309936: In Tagbar window, stopping processing
+1969-12-31 21:08:03.116485: goto_win(): 1wincmd w, 1
+1969-12-31 21:08:03.117156: goto_win(): 2wincmd w, 0
+1969-12-31 21:08:03.128282: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:08:03.128680: In Tagbar window, stopping processing
+1969-12-31 21:08:03.129872: goto_win(): wincmd p, 0
+1969-12-31 21:08:03.142228: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:08:03.142574: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:08:03.142740: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:08:03.143247: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:08:03.143686: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:08:03.144422: goto_win(): wincmd p, 1
+1969-12-31 21:08:03.144708: goto_win(): 2wincmd w, 1
+1969-12-31 21:08:03.145213: goto_win(): 2wincmd w, 1
+1969-12-31 21:08:03.145449: goto_win(): 1wincmd w, 1
+1969-12-31 21:08:03.145644: AutoUpdate finished successfully
+1969-12-31 21:08:03.146708: Jumping to line 17
+1969-12-31 21:08:03.146882: Searching for pattern "\V\^\C    public $tipo;\$"
+1969-12-31 21:08:03.147808: goto_win(): wincmd p, 1
+1969-12-31 21:08:03.148053: goto_win(): 2wincmd w, 1
+1969-12-31 21:08:03.148572: Highlight pattern: '/^\%21l\s*[▾▸ ][-+# ]\?\zs\Vtipo\m\ze/'
+1969-12-31 21:08:03.148826: goto_win(): 2wincmd w, 1
+1969-12-31 21:08:03.149131: goto_win(): 1wincmd w, 0
+1969-12-31 21:08:03.161479: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:08:03.161800: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:08:03.162017: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:08:03.162499: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:08:03.162931: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:08:03.163624: goto_win(): wincmd p, 1
+1969-12-31 21:08:03.163943: goto_win(): 2wincmd w, 1
+1969-12-31 21:08:03.164410: goto_win(): 2wincmd w, 1
+1969-12-31 21:08:03.164630: goto_win(): 1wincmd w, 1
+1969-12-31 21:08:03.164815: AutoUpdate finished successfully
+1969-12-31 21:08:03.519119: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:08:03.519999: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:08:03.520405: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:08:03.521557: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:08:03.522234: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:08:03.523354: goto_win(): wincmd p, 1
+1969-12-31 21:08:03.523785: goto_win(): 2wincmd w, 1
+1969-12-31 21:08:03.524560: goto_win(): 2wincmd w, 1
+1969-12-31 21:08:03.524925: goto_win(): 1wincmd w, 1
+1969-12-31 21:08:03.525225: AutoUpdate finished successfully
+1969-12-31 21:08:07.876533: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:08:07.877316: In Tagbar window, stopping processing
+             1969-12-31 21:08:08.240282: AutoUpdate called [/opt/lampp/htdocs/tareas/__Tagbar__.1]
+1969-12-31 21:08:08.240860: In Tagbar window, stopping processing
+1969-12-31 21:08:09.995445: CloseWindow called
+1969-12-31 21:08:10.015041: AutoUpdate called [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:08:10.015413: Vim filetype: 'php', sanitized filetype: 'php'
+1969-12-31 21:08:10.015566: Checking if file is valid [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:08:10.015984: File data seems up to date [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:08:10.016310: Setting current file [/opt/lampp/htdocs/tareas/app/Http/Livewire/Proyecto.php]
+1969-12-31 21:08:10.016901: AutoUpdate finished successfully
+1969-12-31 21:08:10.017150: goto_win(): wincmd p, 0
+1969-12-31 21:08:10.017675: CloseWindow finished

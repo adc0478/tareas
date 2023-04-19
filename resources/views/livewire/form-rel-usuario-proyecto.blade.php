@@ -1,4 +1,4 @@
-<div class="menu_izq">
+<div>
     <link rel="stylesheet" href="css/menu_left.css" type="text/css" media="screen" title="no title" charset="utf-8">
     <div class="contenido">
        @if ($info !="")
@@ -17,7 +17,7 @@
               <tr>
                   <td>{{$user->id}}</td>
                   <td>{{$user->email}}</td>
-                  <td> <button class="btn_list" wire:click="ingresar_usuario('{{$user->id}}')">-></button> </td>
+                  <td> <img src="img/arrow_forward.png" wire:click="ingresar_usuario('{{$user->id}}')" alt="ingresar"> </td>
               </tr>
           @endforeach
        </table>
@@ -26,16 +26,13 @@
        <table class="tabla">
             <tr>
                 <th></th>
-                <th>ID</th>
-                <th>Usuario</th>
                 <th>Mail</th>
                 <th>Tipo</th>
             </tr>
             @foreach($usuarios_activos as $activo)
                  <tr>
-                    <td> <button class="btn_list" wire:click="quitar_usuario('{{$activo->id}}')"><-</button> </td>
-                    <td>{{$activo->id}}</td>
-                    <td>{{$activo->idU}}</td>
+                    <td><img src="img/arrow_back.png"  wire:click="quitar_usuario('{{$activo->id}}')" alt="ingresar"> </td>
+
                     <td>{{$activo->email}}</td>
                     <td>{{$activo->tipo}}</td>
                 </tr>
@@ -43,4 +40,6 @@
             @endforeach
                    </table>
     </div>
+    <img onclick="quitar_left()" src="img/arrow_back.png" alt="" class="btn_ocultar">
+    <script src="js/app_run.js" charset="utf-8"></script>
 </div>

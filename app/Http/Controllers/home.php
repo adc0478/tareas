@@ -10,4 +10,5 @@ class home extends Controller
     {
         return view('home');
     }
+
 }
